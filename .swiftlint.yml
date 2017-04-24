@@ -1,0 +1,22 @@
+disabled_rules:
+excluded:
+  - Pods
+  - SwiftLint
+# 関数の長さ
+function_body_length:
+  warning: 40
+  error: 80
+# クラスの長さ
+type_body_length:
+  warning: 400
+  error: 800
+# ラインの長さ
+line_length: 150
+# ファイルの長さ
+file_length:
+  warning: 800
+  error: 1600
+variable_name:
+  excluded:
+    - id
+reporter: "xcode"
